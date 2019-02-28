@@ -10,6 +10,8 @@ body {
     border: 10px white solid;
     background-color: white;
     margin: 0 10%;
+    display: flex;
+    flex-flow: column;
 }
 
 .main .header {
@@ -24,47 +26,34 @@ body {
     font-size: 14pt;
 }
 
+.main .body {
+    display: flex;
+}
+
 .main .friends {
     border: 4px#C2E9E9 solid;
     background-color: #E8FBFB;
     padding: 5px;
-    float: left;
     box-sizing: border-box;
     margin: 10px;
 }
 
-.main .both{
-    overflow: hidden;
-}
-
 .main .spatulas {
-    min-height: 175px;
     border: 4px#C2E9E9 solid;
     background-color: #E8FBFB;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
-}
-
-.main .spatulas p img {
-    float: right;
+    display: flex;
 }
 
 .main .cookie {
-    min-height: 200px;
     border: 4px#C2E9E9 solid;
     background-color: #E8FBFB;
     padding: 5px;
     margin-top: 10px;
-}
-
-.main .cookie p.cookie-1 {
-    float: right;
-}
-
-.main .cookie p.cookie-2 {
-    overflow: hidden;
+    display: flex;
 }
 
 .main span {
